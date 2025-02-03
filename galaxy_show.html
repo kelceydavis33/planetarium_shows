@@ -1,0 +1,130 @@
+<section>
+    <h1>Galaxy show</h1>
+    <h4>Age range, Lesson presentation length</h4>
+</section>
+<section></section>
+<section>
+    <h2>Synopsis</h2>
+    <div class="narration">
+        <p>We cover the milky way galaxy.</p>
+    </div>
+</section>
+<hr>
+<section>
+    <div class="ancillary uc-collapsible">
+        <h2>License</h2>
+        <p>Put your license here. We suggest using the
+            <a href="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0</a>license so that it is clear anyone can modify, distribute, and perform
+              your lesson when you share on the
+            <a href="http://Digitarium.com/community/">Digitarium Community site</a>.
+        </p>
+        <p>This lesson template is in the public domain, meaning that you can
+              modify and use it however you want.</p>
+    </div>
+</section>
+<hr>
+<section>
+    <div name="insert-toc"></div>
+</section>
+<hr>
+<section>
+    <div class="ancillary uc-collapsible">
+        <h2 id="Objectives">Objectives</h2>
+        <p>Ennumeration of learning objectives in this lesson:</p>
+        <ol>
+            <li>Concept 1</li>
+            <li>Concept 2</li>
+            <li>etc...</li>
+        </ol>
+    </div>
+</section>
+<hr>
+<section>
+    <div class="ancillary uc-collapsible">
+        <h2 id="Materials">Materials</h2>
+        <p>List of materials required in this lesson:</p>
+        <ul>
+            <li>Flashlight</li>
+            <li>Light and laser pointers</li>
+        </ul>
+    </div>
+</section>
+<hr>
+<section>
+    <h2 id="Setup">Setup</h2>
+    <p>Describe any setup required before the lesson is presented. To make this easy, you could provide a setup script button.</p>
+</section>
+<hr>
+<section>
+    <h2 id="Lesson">Lesson</h2>
+</section>
+<section>
+    <h3 id="concept1">Setting the Sun</h3>
+    <p>Fast-forwarding time to 7 PM  when Sagitarius is visible and remove the landscape and light pollution for a clearer view of the night sky.</p>
+    <div class="effect" data-transport="false" data-type="command" data-value="timerate rate 1500">Fast forward time.</div>
+    <div class="effect" data-transport="false" data-type="command" data-value="timerate rate 1">Return to normal time.</div>
+    <div class="effect" data-transport="false" data-type="command" data-value="flag atmosphere off">Turn atmosphere off.</div>
+    <div class="effect" data-transport="false" data-type="command" data-value="flag light_pollution off">Turn off light pollution.</div>
+    <div class="effect" data-transport="false" data-type="command" data-value="flag landscape off">Turn landscape off.</div>
+    <div class="narration">With the atmosphere off, we can see constelations that are normally up during the day!! Let's check out what's up in the sky around noon tomorrow. (Fast forward time again, now to noon)</div>
+    <div class="effect" data-transport="false" data-type="command" data-value="timerate rate -1500">rewind time.</div>
+    <div class="effect" data-transport="false" data-type="command" data-value="timerate rate 1">Return to normal time.</div>
+    <div class="narration">Noon is an important time if you beleive in Astrology! Your astrological sign is the constelation the sun appears in at noon on your birthday. Ask the audience if they know the zodiac season if you want.
+        <span class="question">What is the zodiac sign for people celebrating birthdays soon?</span>
+    </div> <b>Answer: Aquarius!</b> 
+    <div class="uc-collapsible"></div>
+    <div class="narration">
+        <p>Display Sagitarius HIT BUTTONS IN ORDER.</p>
+        <div class="effect" data-transport="false" data-type="command" data-value="select constellation AQR">Toggle Aquarius</div>
+        <div class="effect" data-type="command" data-value="flag constellation_lines on">Enable constellation lines</div>
+        <div class="effect" data-type="command" data-value="flag constellation_art on">Enable constellation artwork</div>
+        <div class="narration">We're wrong! Turns out, a lot of the star charts used to calculate your birth chart are out dated and based in Athens, Greece! If today is your bithday, you're acutally a Pisces!</div>
+        <div class="effect" data-transport="false" data-type="command" data-value="select constellation CAP">Toggle Capricorn</div>
+        <div class="narration">During the day, another constelation is up near the sun, Sagitarius!</div>
+        <div class="effect" data-transport="false" data-type="command" data-value="select constellation SGR">Toggle Sagittarius</div>
+        <div class="narration"></div>
+        <div class="effect" data-transport="false" data-type="command" data-value="flag constellation_lines off">Turn Off All Constellation Lines</div>
+        <div class="effect" data-transport="false" data-type="command" data-value="flag constellation_art off">Turn Off All Constellation Artwork</div>
+        <div class="narration">DONT FORGET TO TOGGLE OFF LINES</div>
+        <div class="narration">Point out how dark it is near the center of the view, this is because of dust! Astronomers need to consider this to learn about the structure of the milky way</div>
+        <div class="narration">Toggle on dust map ( tab second from right, arrow in top left to get out, then sky on bottom left, Plank dust survey</div>
+        <div class="narration">This dust preferentially eats up the bluer light! We call this dust reddening because it makes the light that does get through reder! We can look at redder light to get a better view of what's going on in our milky way galaxy.</div>
+        <div class="narration">Toggle on Radio view ( tab second from right, arrow in top left to get out, then sky on bottom left, <b>HI All Sky Continuum Survey</b> 
+            <div class="narration">Radio light is some of the reddest light we detect! We don't mean red like the colors we see, but in
+                <div class="narration">stead that this light is much redder than the colors we can see.</div>
+            </div>
+        </div>
+        <div class="narration">Point out black hole Sag A*, toggle on EHT image located at Internal/Data2Dome/ A View of the Milky Way......</div>
+        <section>
+            <h2 id="toc_auto_id_hw7qgmy5">Up Tonight</h2>
+        </section>
+        <div class="narration">Let's return to the night sky tonight and I'll pont out some of the cool things in the milky way that you can find tonight on your way home!</div>
+        <div class="narration">Rewind time to (9pm/21:00)</div>
+        <div class="effect" data-transport="false" data-type="command" data-value="timerate rate -1500">Re wind time.</div>
+        <div class="effect" data-transport="false" data-type="command" data-value="timerate rate 1">Return to normal time.</div>
+        <div class="narration">One of the easiest things in the night sky to find this time of year is Orion!</div>
+        <div class="effect" data-type="command" data-value="flag constellation_lines on">Enable constellation lines</div>
+        <div class="effect" data-transport="false" data-type="command" data-value="select constellation ORI">Toggle Orion</div>
+        <div class="narration">Gibber gabber about Orion, point out the pliedes</div>
+        <div class="effect" data-transport="false" data-type="command" data-value="select nebula M45">Select Pliedes</div>
+        <div class="effect" data-transport="false" data-type="command" data-value="zoom auto in">Zoom in</div>
+        <div class="effect" data-transport="false" data-type="command" data-value="zoom auto initial">Zoom out</div>
+        <div class="effect" data-transport="false" data-type="command" data-value="deselect">Unselect</div>
+        <div class="narration">Milky Way View</div>
+        <div class="effect" data-transport="false" data-type="command" data-value="flyto object Milky Way">Fly to milly way</div>
+        <div class="effect" data-transport="false" data-type="command" data-value="flyto object Earth">Fly to Earth</div>
+        <div class="effect" data-transport="false" data-type="command" data-value="flag constellation_lines off">Turn Off All Constellation Lines</div>
+        <div class="effect" data-transport="false" data-type="command" data-value="flag constellation_art off">Turn Off All Constellation Artwork</div>
+    </div>
+</section>
+<section>
+    <div class="narration"></div>
+</section>
+<section>
+    <div class="narration"></div>
+</section>
+<section>
+    <div class="narration"></div>
+</section>
+<hr>
+<div name="insert-media-credits"></div>
