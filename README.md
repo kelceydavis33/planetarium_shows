@@ -11,3 +11,4 @@ They are intended to be used in the Lesson tab of the planetarium software. No i
 
 **research_showcase**: A longer (~30 minute) talk on the research hapening at UConn Astrophysics. None of the visuals are included (proprietary). Starts with a nearby look at planet formation in the milky way, then the milky way itsself, then nearby star forming galaxies, large galaxy surveys, and finally high resolution numerical simulations.
 
+**aliens**: A long show about aliens! We got through the planets in out solar system, making the calse for life on each. We then detail the efforts of astronomers to send messages out into the cosmos and end with a visualization of all known planets and use deep field images to give a scale for the number of galaxies.
