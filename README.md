@@ -14,3 +14,5 @@ They are intended to be used in the Lesson tab of the planetarium software. No i
 **aliens**: A long (~30 minute) show about aliens! We got through the planets in out solar system, making the calse for life on each. We then detail the efforts of astronomers to send messages out into the cosmos and end with a visualization of all known planets and use deep field images to give a scale for the number of galaxies.
 
 **eclipse**: A short ~20 minute show on total solar and lunar eclipses, focusing on those visible this year over Storrs, CT
+
+**kids**: 15-25 minute super generic kids show covering the types of bright things in the sky
