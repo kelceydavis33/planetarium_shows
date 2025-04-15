@@ -16,3 +16,5 @@ They are intended to be used in the Lesson tab of the planetarium software. No i
 **eclipse**: A short ~20 minute show on total solar and lunar eclipses, focusing on those visible this year over Storrs, CT
 
 **kids**: 15-25 minute super generic kids show covering the types of bright things in the sky
+
+**JWST show**: 30 minute show on the major discoveries from JWST 2023-2025
